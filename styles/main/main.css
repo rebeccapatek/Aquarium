@@ -1,0 +1,22 @@
+.content {
+    display:flex;
+
+}
+.fishies--image {
+    height: 200px;
+    width: 200px;
+
+}
+.fishies {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-evenly;
+    flex-basis: 66%;
+    
+  }
+  aside{
+    width: 30%;
+    border: 1px solid darkblue;
+    padding: 5px;
+  }
