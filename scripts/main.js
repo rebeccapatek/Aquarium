@@ -9,4 +9,4 @@ for (const fish of allTheFish) {
     console.log(fish)
 }
 FishListComponent()
-// initializeDetailButtonEvents()
+initializeDetailButtonEvents()
