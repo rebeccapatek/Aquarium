@@ -1,7 +1,7 @@
 export const mostHolyFish = (FishCollectionArray) => {
     let holyFish = [];
     for (const fish of FishCollectionArray) {
-        if (fish.size % 3 === 0) {
+        if (fish.length % 3 === 0) {
             holyFish.push(fish);
         }
     }
@@ -13,7 +13,7 @@ export const soldierFish = (FishCollectionArray) => {
     // 5, 10, 15, 20, 25, etc... fish
     let soldier = [];
     for (const fish of FishCollectionArray) {
-        if (fish.size % 5 === 0) {
+        if (fish.length % 5 === 0) {
             soldier.push(fish);
         }
     }
@@ -24,7 +24,7 @@ export const soldierFish = (FishCollectionArray) => {
 export const nonHolyFish= (FishCollectionArray) => {
     let normals = [];
     for (const fish of FishCollectionArray) {
-        if (fish.size % 3 !==0 && fish.size % 5 !==0)
+        if (fish.length % 3 !==0 && fish.length % 5 !==0)
         {
             normals.push(fish);
         }

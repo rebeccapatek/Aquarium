@@ -4,7 +4,7 @@ const fishCollection = [
         species: "Goldfish",
         location: "Carnival",
         food: ["flakes"],
-        length: "5 inches",
+        length: 5,
         image: "/goldie-fish.jpg"
     },
     {
@@ -12,7 +12,7 @@ const fishCollection = [
         species: "Clownfish",
         location: "Finding Nemo Movies",
         food: ["algae", "crustaceans"],
-        length: "10 inches",
+        length: 10,
         image: "/Clownfish.jpg"
     },
     {
@@ -20,21 +20,21 @@ const fishCollection = [
         species: "Bluefish",
         location: "Great Coral Reef",
         food: ["plankton"],
-        length: "3 inches",
+        length: 3,
         image: "/stripedfish.jpg"
     },    {
         name: "Prettyboy",
         species: "Fan-finned",
         location: "Mississippi River",
         food: ["kittens"],
-        length: "27 inches",
+        length: 27,
         image: "/redfish.jpg"
     },    {
         name: "Mr. Spotty",
         species: "Catfish",
         location: "Buffalo River",
         food: ["garbage"],
-        length: "42 inches",
+        length: 42,
         image: "/catfish.jpg"
     },
     
