@@ -30,7 +30,7 @@ const fishCollection = [
         length: 27,
         image: "/redfish.jpg"
     },    {
-        name: "Mr. Spotty",
+        name: "Mister Spotty",
         species: "Catfish",
         location: "Buffalo River",
         food: ["garbage"],
